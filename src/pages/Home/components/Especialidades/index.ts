@@ -1,0 +1,1 @@
+export { default as Especialidades } from './Especialidades';

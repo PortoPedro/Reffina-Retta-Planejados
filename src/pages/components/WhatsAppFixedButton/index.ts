@@ -1,0 +1,1 @@
+export { default as WhatsAppFixedButton } from './WhatsAppFixedButton';
