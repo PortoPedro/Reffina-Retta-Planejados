@@ -5,8 +5,8 @@ export interface ConteConoscoProps {
   title: string;
   description: string;
   subdescription?: string;
-  buttonText: string;
-  buttonLink: string;
+  buttonText?: string;
+  buttonLink?: string;
   imageSrc?: string;  // Agora opcional
   videoSrc?: string;  // Nova prop opcional para vídeo
 }
@@ -21,17 +21,22 @@ export function ConteConosco(props: ConteConoscoProps) {
           <h2>{title}</h2>
           <hr />
           <p>{description}</p>
-          <p>{subdescription}</p>
-          <Button
-            variant="outlined"
-            className="saiba-mais-button"
-            onClick={(e) => {
-              e.stopPropagation();
-              window.location.href = buttonLink;
-            }}
-          >
-            {buttonText}
-          </Button>
+          <p><strong>{subdescription}</strong></p>
+
+
+          {buttonLink && buttonText && (
+            <Button
+              variant="outlined"
+              className="saiba-mais-button"
+              onClick={(e) => {
+                e.stopPropagation();
+                window.location.href = buttonLink;
+              }}
+            >
+              {buttonText}
+            </Button>
+          )}
+
         </div>
 
         {/* Renderiza vídeo se videoSrc for passado, senão exibe imagem */}

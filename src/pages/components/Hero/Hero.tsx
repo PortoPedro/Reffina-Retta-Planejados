@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <styled.HeroContainer>
       <styled.ContentContainer className="container">
-        <img src="./amitran-logo.png" alt="Amitran Mudanças" className="logo" />
+        <img src="./Reffina-logo.png" alt="Reffina Retta" className="logo" />
         <Button variant="contained" color="primary" className="cta-button">
           Fale com a Amitran
         </Button>

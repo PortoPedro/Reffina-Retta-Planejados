@@ -3,19 +3,19 @@ import * as styled from "./Diferenciais.styles";
 
 const diferenciais = [
   {
-    imagem: "./sofa-diferenciais.webp",
-    titulo: "Cuidado em todos os detalhes",
-    descricao: "Há décadas prezamos por cada detalhe para que a sua mudança ocorra da melhor maneira possível."
+    imagem: "./custom-diferenciais.png",
+    titulo: "Personalização Total",
+    descricao: "Projetos sob medida, adaptados ao seu espaço e estilo, com diversas opções de materiais e acabamentos."
   },
   {
-    imagem: "./caminhao-diferenciais.webp",
-    titulo: "Frota Moderna",
-    descricao: "Utilizamos uma frota em perfeitas condições, sempre renovada e com manutenção em dia."
+    imagem: "./qualidade-diferenciais.png",
+    titulo: "Qualidade e Durabilidade",
+    descricao: "Materiais de alta qualidade para móveis resistentes, funcionais e com acabamento impecável."
   },
   {
-    imagem: "./brasil-diferenciais.webp",
-    titulo: "Atendemos todo o Brasil",
-    descricao: "Atendemos em qualquer mudança, entre cidades ou entre estados do Brasil."
+    imagem: "./consulta-diferenciais.png",
+    titulo: "Atendimento Consultivo",
+    descricao: "Acompanhamos você em todas as etapas, garantindo um serviço personalizado e sem complicações."
   }
 ];
 

@@ -16,9 +16,10 @@ export const ContentContainer = styled.div`
   justify-content: space-between;
 
   .logo {
-    height: 100px;
+    height: 300px;
     user-select: none;
     pointer-events: none;
+     margin-left: 50px;
   }
 
   .cta-button {

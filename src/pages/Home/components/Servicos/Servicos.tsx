@@ -6,38 +6,31 @@ import { useMediaQuery } from "@mui/material";
 
 const servicos = [
   {
-    titulo: "Içamentos",
-    imagem: "./icamentos-image.webp",
+    titulo: "Contato",
+    imagem: "./contato.png",
     descricao:
-      "Com mais décadas de experiência no mercado, Amitran é uma empresa especializada em serviços de içamentos. Oferecendo os preços mais competitivos do mercado (...)",
+      "Entre em contato conosco! Seja por telefone, WhatsApp ou e-mail, estamos prontos para entender sua necessidade e esclarecer todas as suas dúvidas. Esse é o primeiro passo para transformar seu projeto em realidade!",
     link: "#",
   },
   {
-    titulo: "Guarda móveis",
-    imagem: "./guarda-moveis-image.webp",
+    titulo: "Orçamento",
+    imagem: "./orcamento.jpg",
     descricao:
-      "Está precisando de um espaço para guardar seus bens e não sabe onde procurar? Sua busca terminou, pois a Amitran é a (...)",
+      "Desenvolvemos um orçamento sob medida com base nas suas necessidades e preferências. Nessa etapa, analisamos detalhes como materiais, acabamentos e dimensões para oferecer a melhor solução para o seu projeto",
     link: "#",
   },
   {
-    titulo: "Mudanças Comerciais",
-    imagem: "./mudanca-comercial-image.webp",
+    titulo: "Produção",
+    imagem: "./producao.jpg",
     descricao:
-      "Fazer uma mudança comercial pode ser tornar uma grande dor de cabeça se você não escolher o fornecedor correto. Você sempre deve buscar (...)",
+      "Mãos à obra! Com materiais de alta qualidade e um trabalho minucioso, nossa equipe de especialistas inicia a fabricação do seu projeto, garantindo um acabamento impecável e um resultado duradouro.",
     link: "#",
   },
   {
-    titulo: "Embalagens",
-    imagem: "./embalagens-image.webp",
+    titulo: "Montagem",
+    imagem: "./montagem.jpg",
     descricao:
-      "Precisa embalar seus pertences com segurança e eficiência? Contamos com os melhores materiais e profissionais especializados para garantir a proteção total de seus itens (...)",
-    link: "#",
-  },
-  {
-    titulo: "Mudança Residencial",
-    imagem: "./mudanca-residencial-image.webp",
-    descricao:
-      "A mudança residencial pode ser desafiadora, mas a Amitran garante uma experiência tranquila e segura. Cuidamos de todo o processo com total eficiência (...)",
+      "Entrega e instalação com precisão! Nossa equipe cuida de cada detalhe na montagem dos móveis, garantindo que tudo fique perfeito no seu espaço. Assim, você pode aproveitar um ambiente funcional e elegante sem preocupações.",
     link: "#",
   },
 ];
@@ -47,7 +40,7 @@ export function ServicosSection() {
 
   return (
     <styled.ServicosContainer className="container">
-      <h1>Nossos Serviços</h1>
+      <h1>Processo e Serviços</h1>
 
       <Swiper
         spaceBetween={40}

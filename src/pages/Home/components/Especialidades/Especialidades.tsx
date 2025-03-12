@@ -18,7 +18,7 @@ export function Especialidades() {
           </span>
 
         </div>
-        <img src="./gaveta.jpg" alt="Caminhão da Amitran" className="especialidades-image" />
+        <img src="./gaveta.jpg" alt="Foto Gaveta" className="especialidades-image" />
       </styled.ContentContainer>
     </styled.EspecialidadesContainer>
   );

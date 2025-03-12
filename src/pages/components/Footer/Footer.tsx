@@ -9,7 +9,7 @@ export function FooterSection() {
     <styled.FooterContainer>
       <styled.ContentWrapper className="container">
         <styled.LogoSection>
-          <img src="./amitran-logo.png" alt="Logo Amitran" />
+          <img src="./Reffina-logo-branco.png" alt="Logo Reffina" />
           <p>
             Amitran Mudanças é uma empresa com sede própria, com moderna frota
             de caminhões e equipe altamente qualificada para atender às
@@ -48,12 +48,12 @@ export function FooterSection() {
         <styled.FooterBottom>
           <p>&copy; {new Date().getFullYear()} Amitran. Todos os direitos reservados.</p>
         </styled.FooterBottom>
-          <img
-            src="nog-digital.png"
-            onClick={() => window.open("https://www.instagram.com/nogdigitalsites/", "_blank")}
-            style={{ cursor: "pointer", width: '100px', margin: '0 auto' }}
-            alt="Nog Digital"
-          />
+        <img
+          src="nog-digital.png"
+          onClick={() => window.open("https://www.instagram.com/nogdigitalsites/", "_blank")}
+          style={{ cursor: "pointer", width: '100px', margin: '0 auto' }}
+          alt="Nog Digital"
+        />
       </styled.ContentWrapper>
     </styled.FooterContainer>
   );

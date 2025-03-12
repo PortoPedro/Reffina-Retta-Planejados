@@ -12,17 +12,15 @@ export function Home() {
   return (
     <styled.HomeContainer>
       <FixedTopBar />
-      <Header message="Uma empresa tradicional atuando em toda região metropolitana de Beo Horizonte" />
+      <Header message="Empresa tradicional atuando em toda região metropolitana de Belo Horizonte" />
       <Especialidades />
       <Servicos />
       <ConteConosco
         title="Conte conosco!"
-        description="            Mudar pode ser um grande desafio, repleto de imprevistos. Mas com a Amitran, você tem a tranquilidade de contar com especialistas que garantem segurança e eficiência em cada etapa.
-            Com décadas de experiência, oferecemos mudanças residenciais e comerciais com excelência, independentemente do tamanho. Cuidamos de cada detalhe para que seus pertences cheguem ao destino com total segurança."
-        subdescription="            Confie em quem faz parte da história de Belo Horizonte e transforme sua mudança em uma experiência tranquila.
-"
-        buttonLink="#"
-        buttonText="Saiba mais"
+        description="Mudar o seu espaço pode ser um grande desafio, cheio de escolhas e detalhes. Mas com a Reffina Retta, você conta com especialistas que garantem qualidade, precisão e eficiência em cada etapa."
+        subdescription="Com anos de experiência, transformamos ideias em móveis sob medida, unindo funcionalidade e design para atender às suas necessidades. Seja para sua casa ou empresa, cuidamos de cada detalhe do projeto, desde a escolha dos materiais até a montagem final, garantindo um acabamento impecável e um resultado que supera expectativas."
+        // buttonLink="#"
+        // buttonText="Saiba mais"
         videoSrc="./video.mp4"
       />
       <Diferenciais />
