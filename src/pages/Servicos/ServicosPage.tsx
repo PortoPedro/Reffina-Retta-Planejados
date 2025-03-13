@@ -10,7 +10,7 @@ export function ServicosPage() {
   return (
     <styled.ServicosPageContainer>
       <FixedTopBar />
-      <Header message="Conte com uma empresa com mais de 50 anos de experiência!"/>
+      <Header message="Conte com uma empresa com mais de 20 anos de experiência!" />
       <Numeros />
       <ProcessFlow />
       <Footer />

@@ -21,11 +21,11 @@ export function FixedTopBar() {
   };
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:comercial@maxtran.com.br";
+    window.location.href = "mailto:alberto@reffina.com.br";
   };
 
   const handlePhoneClick = () => {
-    window.location.href = "tel:+553134914050";
+    window.location.href = "tel:+5531999550808";
   };
 
   return (
@@ -33,11 +33,11 @@ export function FixedTopBar() {
       <styled.DesktopContainer className="container">
         <div className="icon-text" onClick={handleEmailClick}>
           <FaEnvelope />
-          <p>comercial@maxtran.com.br</p>
+          <p>alberto@reffina.com.br</p>
         </div>
         <div className="icon-text" onClick={handlePhoneClick}>
           <FaPhone />
-          <p>31 3491-4050</p>
+          <p>31 999550808</p>
         </div>
       </styled.DesktopContainer>
       <styled.MobileContainer>
@@ -69,12 +69,12 @@ export function FixedTopBar() {
                 <List component="div" disablePadding>
                   <ListItem onClick={handlePhoneClick}>
                     <FaPhone style={{ marginRight: 8 }} />
-                    <ListItemText primary="31 3491-4050" />
+                    <ListItemText primary="31 999550808" />
                   </ListItem>
                   <Divider />
                   <ListItem onClick={handleEmailClick}>
                     <FaEnvelope style={{ marginRight: 8 }} />
-                    <ListItemText primary="comercial@maxtran.com.br" />
+                    <ListItemText primary="alberto@reffina.com.br" />
                   </ListItem>
                 </List>
               </Collapse>

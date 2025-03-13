@@ -11,9 +11,7 @@ export function FooterSection() {
         <styled.LogoSection>
           <img src="./Reffina-logo-branco.png" alt="Logo Reffina" />
           <p>
-            Amitran Mudanças é uma empresa com sede própria, com moderna frota
-            de caminhões e equipe altamente qualificada para atender às
-            necessidades do cliente.
+            Reffina Retta é uma marcenaria tradicional e familiar, com 20 anos de experiência, unindo qualidade artesanal e inovação. Contamos com uma equipe especializada e infraestrutura completa para transformar cada projeto em realidade com excelência.
           </p>
         </styled.LogoSection>
 
@@ -21,32 +19,32 @@ export function FooterSection() {
           <h3>Navegue</h3>
           <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#services">Serviços para Mudanças</a></li>
+            <li><a href="#services">Processo</a></li>
           </ul>
         </styled.NavSection>
 
         <styled.ServicesSection>
-          <h3>Serviços</h3>
+          <h3>Móveis para :</h3>
           <ul>
-            <li><a href="#residenciais">Mudanças Residenciais</a></li>
-            <li><a href="#comerciais">Mudanças Comerciais</a></li>
-            <li><a href="#guarda-moveis">Guarda móveis</a></li>
-            <li><a href="#icamentos">Içamentos</a></li>
-            <li><a href="#embalagens">Embalagens</a></li>
+            <li><a href="#Cozinha">Cozinha</a></li>
+            <li><a href="#Quarto">Quarto</a></li>
+            <li><a href="#Banheiro">Banheiro</a></li>
+            <li><a href="#Sala de TV e jantar">Sala de TV e jantar</a></li>
+            <li><a href="#Cômodos diversos/outros">Cômodos diversos/outros</a></li>
           </ul>
         </styled.ServicesSection>
 
         <styled.ContactSection>
           <h3>Contatos</h3>
           <ul>
-            <li><Phone /> (31) 3491-4050</li>
-            <li><WhatsApp /> (31) 99811-4511</li>
-            <li><Email /> comercial@amitran.com.br</li>
-            <li><Place /> R. Caldas da Rainha, 1763 - São Francisco - BH - MG</li>
+            <li><Phone /> (31) 99955-0809</li>
+            <li><WhatsApp /> (31) 99955-0808</li>
+            <li><Email /> alberto@reffina.com.br</li>
+            <li><Place /> R. Estrela Dione, 175 - Jardim Riacho das Pedras - BH - MG</li>
           </ul>
         </styled.ContactSection>
         <styled.FooterBottom>
-          <p>&copy; {new Date().getFullYear()} Amitran. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Reffina. Todos os direitos reservados.</p>
         </styled.FooterBottom>
         <img
           src="nog-digital.png"

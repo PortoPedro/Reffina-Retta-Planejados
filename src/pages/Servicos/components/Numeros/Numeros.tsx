@@ -13,7 +13,7 @@ const images = [
 const stats = [
   { label: "Entregas Realizadas", value: 60000 },
   { label: "Estados Atendidos", value: 24 },
-  { label: "Anos de Empresa", value: 26 },
+  { label: "Anos de Empresa", value: 21 },
   { label: "Km's percorridos", value: 1000000 },
 ];
 
@@ -38,7 +38,7 @@ export function Numeros() {
 
         <styled.StatsContainer>
           <styled.Title data-aos="zoom-out" data-aos-duration={2000}>Confie em quem tem experiência!</styled.Title>
-          <hr/>
+          <hr />
           <styled.StatsGrid>
             {stats.map((stat, index) => (
               <styled.StatItem key={index} data-aos="zoom-out" data-aos-duration={index * 1000}>
