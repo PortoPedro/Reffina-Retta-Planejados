@@ -26,13 +26,12 @@ export const Container = styled.div`
 `;
 
 export const CarouselContainer = styled.div`
-  width: 50%;
+  width: 100%;
   max-width: 600px;
-  overflow: hidden;
 
-  @media (max-width: 768px) {
+  @media (max-width: 768px) { 
     width: 100%;
-    max width: 100%;
+    max width: 90%;
   }
 `;
 
