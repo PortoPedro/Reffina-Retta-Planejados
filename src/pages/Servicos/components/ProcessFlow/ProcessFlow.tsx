@@ -5,14 +5,12 @@ import { Stepper, Step, StepLabel, Box, AccordionSummary, Accordion, AccordionDe
 import { colorPalette } from "../../../../utils/colors";
 
 const steps = [
-  { title: "Contato Inicial", description: "Primeiro contato para entender suas necessidades." },
-  { title: "Apuramento de dados", description: "Coletamos informações sobre os itens e locais envolvidos." },
-  { title: "Análise de rotas", description: "Definição do melhor trajeto para o transporte." },
-  { title: "Estimativas de tempo", description: "Cálculo do tempo necessário para cada etapa da mudança." },
-  { title: "Orçamento", description: "Envio da proposta detalhada com custos e prazos." },
-  { title: "Embalagem", description: "Proteção e organização dos itens para transporte seguro." },
-  { title: "Coleta", description: "Retirada dos itens no local de origem." },
-  { title: "Entrega", description: "Transporte e entrega no destino final." },
+  { title: "Contato", description: "Primeiro contato para entender suas necessidades." },
+  { title: " Medição", description: "Realizamos a medição e o apuramento dos dados e características para prototipação do projeto." },
+  { title: "Orçamento", description: "Com um esboço do projeto e especificações básicas da proposta acertadas, é calculado e prosposto um orçamento." },
+  { title: "Produção", description: "Autorizada a produção do serviço, uma estimativa de prazo para otermino da confecção dos móveis e o começo da montagem é feita." },
+  { title: "Montagem", description: "Transporte de todo o material e a montagem dos armários planejados é realizada." },
+  { title: "Conclusão", description: "Depois da sucessão e acompnhamento minucioso do processo é finalizado, o resultado é gratificante " },
 ];
 
 export function ProcessFlow() {

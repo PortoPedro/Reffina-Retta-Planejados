@@ -5,16 +5,22 @@ import "swiper/swiper-bundle.css";
 import * as styled from "./Numeros.styles";
 
 const images = [
-  "leidio_thor.jpeg",
-  "leidio_thor.jpeg",
-  "leidio_thor.jpeg",
+  "1-carrossel.jpg",
+  "2-carrossel.jpg",
+  "2.5-carrossel.jpg",
+  "3-carrossel.jpg",
+  "3.5-carrossel.jpg",
+  "4-carrossel.jpg",
+  "7-carrossel.jpg",
+  "8-carrossel.jpg",
+
 ];
 
 const stats = [
-  { label: "Entregas Realizadas", value: 60000 },
-  { label: "Estados Atendidos", value: 24 },
-  { label: "Anos de Empresa", value: 21 },
-  { label: "Km's percorridos", value: 1000000 },
+  { label: "Taxa de Retorno de Clientes %", value: 85 },
+  { label: "Percentual de Projetos Dentro do Prazo %", value: 95 },
+  { label: "Anos de Empresa", value: 20 },
+  { label: "Clientes Satisfeitos com resultado", value: 800 },
 ];
 
 export function Numeros() {

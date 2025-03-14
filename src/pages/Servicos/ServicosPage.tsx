@@ -1,6 +1,7 @@
 import { FixedTopBar } from "../components/FixedTopBar";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import { IgFixedButton } from "../components/IgFixedButton";
 import { WhatsAppFixedButton } from "../components/WhatsAppFixedButton";
 import { Numeros } from "./components/Numeros";
 import { ProcessFlow } from "./components/ProcessFlow";
@@ -14,6 +15,7 @@ export function ServicosPage() {
       <Numeros />
       <ProcessFlow />
       <Footer />
+      <IgFixedButton profileUrl="https://www.instagram.com/reffina_retta/" />
       <WhatsAppFixedButton />
     </styled.ServicosPageContainer>
   );

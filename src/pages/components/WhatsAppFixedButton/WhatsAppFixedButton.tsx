@@ -23,6 +23,7 @@ const ScrollToTopButton = styled(Fab)`
   &:hover {
     background-color: #bdbdbd !important;
   }
+    bottom: 70px;
 `;
 
 const LightTooltip = styled(({ className, ...props }: TooltipProps) => (
