@@ -9,7 +9,8 @@ export const Container = styled.div`
   padding: 70px 5%;
   max-width: 100%;
   width: 100%;
-  
+  overflow: hidden; /* Impede que o carrossel transborde */
+
   .statistics {
     align-items: center;
     justify-content: center;
@@ -27,11 +28,13 @@ export const Container = styled.div`
 
 export const CarouselContainer = styled.div`
   width: 100%;
-  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Impede que o carrossel ultrapasse as bordas */
 
-  @media (max-width: 768px) { 
-    width: 100%;
-    max width: 90%;
+  @media (max-width: 768px) {
+    max-width: 100%;
+    width: 90%;
   }
 `;
 

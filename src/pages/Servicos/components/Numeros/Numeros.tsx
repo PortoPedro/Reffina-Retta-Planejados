@@ -33,6 +33,7 @@ export function Numeros() {
             autoplay={{ delay: 2000 }}
             pagination={{ clickable: true }}
             loop
+            style={{ width: "100%", height: "100%" }}
           >
             {images.map((src, index) => (
               <SwiperSlide key={index}>
