@@ -48,7 +48,7 @@ export const ContentContainer = styled.div`
   }
   @media(max-width: 768px) {
     h1 {
-      margin-top: 50px;
+      margin-top: 0px;
       color: white;
       font-size: 1.5rem;
       font-weight: 700;

@@ -2,9 +2,9 @@ import { useNavigate } from "react-router-dom";
 import { Hero } from "../Hero";
 import * as styled from "./Header.styles";
 
-export function Header(props: {message: string}) {
+export function Header(props: { message: string }) {
   const navigate = useNavigate();
-  
+
   return (
     <styled.HeaderContainer>
       <styled.BackgroundImage />

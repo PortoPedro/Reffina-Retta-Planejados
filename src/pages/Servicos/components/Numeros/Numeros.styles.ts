@@ -28,9 +28,11 @@ export const Container = styled.div`
 export const CarouselContainer = styled.div`
   width: 50%;
   max-width: 600px;
+  overflow: hidden;
 
   @media (max-width: 768px) {
     width: 100%;
+    max width: 90%;
   }
 `;
 
@@ -62,8 +64,7 @@ export const StatsContainer = styled.div`
     align-items: center;
     width: 100%;
     hr {
-      display: flex;
-      align-self: start;
+      display: none;
     }
   }
 `;
@@ -72,6 +73,14 @@ export const Title = styled.h2`
     font-size: 2rem;
     font-weight: 600;
     color: ${colorPalette.primeira};
+    text-align: center; 
+    word-wrap: break-word; 
+    word-break: break-word; 
+
+    @media (max-width: 768px) {
+        font-size: 1.5rem; 
+        padding: 0 15px; 
+    }
 `;
 
 export const StatsGrid = styled.div`
