@@ -44,6 +44,10 @@ export const Image = styled.img`
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
+
+  @media (max-width: 768px) {
+   object-fit: contain;
+  }
 `;
 
 export const StatsContainer = styled.div`

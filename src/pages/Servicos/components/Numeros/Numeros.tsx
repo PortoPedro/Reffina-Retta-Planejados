@@ -8,9 +8,6 @@ const images = [
   "1-carrossel.jpg",
   "2-carrossel.jpg",
   "2.5-carrossel.jpg",
-  "3-carrossel.jpg",
-  "3.5-carrossel.jpg",
-  "4-carrossel.jpg",
   "7-carrossel.jpg",
   "8-carrossel.jpg",
 
