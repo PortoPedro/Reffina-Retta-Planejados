@@ -21,7 +21,7 @@ export const BackgroundImage = styled.div`
   left: 0;
   width: 100%;
   height: 600px;
-  background-image: url("./header-background.jpg");
+  background-image: url("./header-background.webp");
   background-size: cover;
   background-position: center;
   filter: grayscale(40%) brightness(60%);
