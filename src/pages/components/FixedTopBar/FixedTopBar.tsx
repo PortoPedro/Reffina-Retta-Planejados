@@ -21,7 +21,7 @@ export function FixedTopBar() {
   };
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:alberto@reffina.com.br";
+    window.location.href = "mailto:reffinaretta@gmail.com";
   };
 
   const handlePhoneClick = () => {
@@ -33,7 +33,7 @@ export function FixedTopBar() {
       <styled.DesktopContainer className="container">
         <div className="icon-text" onClick={handleEmailClick}>
           <FaEnvelope />
-          <p>alberto@reffina.com.br</p>
+          <p>reffinaretta@gmail.com</p>
         </div>
         <div className="icon-text" onClick={handlePhoneClick}>
           <FaPhone />
@@ -74,7 +74,7 @@ export function FixedTopBar() {
                   <Divider />
                   <ListItem onClick={handleEmailClick}>
                     <FaEnvelope style={{ marginRight: 8 }} />
-                    <ListItemText primary="alberto@reffina.com.br" />
+                    <ListItemText primary="reffinaretta@gmail.com" />
                   </ListItem>
                 </List>
               </Collapse>

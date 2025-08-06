@@ -39,7 +39,7 @@ export function FooterSection() {
           <ul>
             <li><Phone /> (31) 99955-0808</li>
             <li><WhatsApp /> (31) 99955-0808</li>
-            <li><Email /> alberto@reffina.com.br</li>
+            <li><Email /> reffinaretta@gmail.com</li>
             <li><Place /> R. Estrela Dione, 175 - Jardim Riacho das Pedras - BH - MG</li>
           </ul>
         </styled.ContactSection>
